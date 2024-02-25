@@ -21,3 +21,6 @@ JavaScript
 
 Contributing
 Contributions are welcome! Please feel free to open issues or submit pull requests.
+
+Credits 
+This project was created by Musiab Mir.
