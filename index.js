@@ -31,6 +31,7 @@ let isDiv = false;
 let isMod = false;
 let isPow = false;
 let isDecimalClicked = 0;
+let isClicked = 0;
 
 
 
@@ -128,6 +129,10 @@ function isZeroBefore(currentVal, whichButton) {
 }
 
 one.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         isZeroBefore(screenValue, one);
     } else if (isNew = true && isAdd == true) {
@@ -181,6 +186,10 @@ one.addEventListener('click', () => {
     }
 });
 two.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         isZeroBefore(screenValue, two);
     } else if (isNew = true && isAdd == true) {
@@ -234,6 +243,10 @@ two.addEventListener('click', () => {
     }
 });
 three.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         isZeroBefore(screenValue, three);
     } else if (isNew = true && isAdd == true) {
@@ -287,6 +300,10 @@ three.addEventListener('click', () => {
     }
 });
 four.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         // screenValue += four.value;
         // screen.innerText = screenValue;
@@ -342,6 +359,10 @@ four.addEventListener('click', () => {
     }
 });
 five.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         // screenValue += five.value;
         // screen.innerText = screenValue;
@@ -397,6 +418,10 @@ five.addEventListener('click', () => {
     }
 });
 six.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         // screenValue += six.value;
         // screen.innerText = screenValue;
@@ -452,6 +477,10 @@ six.addEventListener('click', () => {
     }
 });
 seven.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         // screenValue += seven.value;
         // screen.innerText = screenValue;
@@ -508,6 +537,10 @@ seven.addEventListener('click', () => {
     }
 });
 eight.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         // screenValue += eight.value;
         // screen.innerText = screenValue;
@@ -563,6 +596,10 @@ eight.addEventListener('click', () => {
     }
 });
 nine.addEventListener('click', () => {
+    isClicked += 1;
+    if(isClicked > 11){
+        window.location.reload();
+    }
     if (isNew == false) {
         // screenValue += nine.value;
         // screen.innerText = screenValue;
