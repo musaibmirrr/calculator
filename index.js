@@ -130,7 +130,7 @@ function isZeroBefore(currentVal, whichButton) {
 
 one.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -187,7 +187,7 @@ one.addEventListener('click', () => {
 });
 two.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -244,7 +244,7 @@ two.addEventListener('click', () => {
 });
 three.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -301,7 +301,7 @@ three.addEventListener('click', () => {
 });
 four.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -360,7 +360,7 @@ four.addEventListener('click', () => {
 });
 five.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -419,7 +419,7 @@ five.addEventListener('click', () => {
 });
 six.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -478,7 +478,7 @@ six.addEventListener('click', () => {
 });
 seven.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -538,7 +538,7 @@ seven.addEventListener('click', () => {
 });
 eight.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
@@ -597,7 +597,7 @@ eight.addEventListener('click', () => {
 });
 nine.addEventListener('click', () => {
     isClicked += 1;
-    if(isClicked > 11){
+    if(isClicked > 16){
         window.location.reload();
     }
     if (isNew == false) {
